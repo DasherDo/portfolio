@@ -643,7 +643,7 @@ footer {
 
 .project {
     position: relative;
-    max-width: 900px;
+    max-width: 1177px;
     margin: 0 auto 30px auto;
     overflow: hidden;
     background: #fff;
@@ -652,14 +652,18 @@ footer {
 
 .project-image {
     float: left;
+	height: 300px;
+	width: 300px;
+	margin-right: 1px;
 }
 
 .project-info {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    margin-left: 300px;
+    margin-left: 577px;
     padding: 15px;
+	max-width: 600px;
 
     h3 {
         font-size: 1.5em;
